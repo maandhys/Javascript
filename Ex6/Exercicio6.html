@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src='script.js'></script>
+    <title>Alert</title>
+</head>
+
+<body onload="exercicio()">
+    <p> Resposta: A função alert será executada após o loop e a mensagem exibida será o 
+        valor de i que foi incrementado no loop (100000000)
+    </p>
+</body>
+
+</html>
+
+
+<!--
+    No código abaixo tem 
+        uma função setTimeout agendada 
+        e depois um cálculo que emora 100ms para acabar.
+        
+    Quando será executada a função agendada? Depois do Loop Antes do Loop ? No começo do loop ?
+    O que a mensagem de alerta irá mostrar?
+Código:
+let i = 0;
+setTimeout(() => alert(i), 100); // ?
+// Assuma que essa função demore mais que 100ms para executar
+for(let j = 0; j < 100000000; j++) {
+i++;
+}-->
